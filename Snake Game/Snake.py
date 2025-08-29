@@ -94,6 +94,12 @@ def gameLoop():
             message("You Lost! Press C-Play Again or Q-Quit", (255, 0, 0), (WIDTH / 8, HEIGHT / 3))
             pygame.display.update()
 
+            # Update high score if needed here
+            if score > HIGH_SCORE:
+                HIGH_SCORE = score
+                with open(HS_FILE, "w") as f:
+                    f.write(str(HIGH_SCORE))
+
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     game_over = True
@@ -103,6 +109,7 @@ def gameLoop():
                         game_over = True
                         game_close = False
                     if event.key == pygame.K_c:
+                        game_close = False
                         gameLoop()
 
         for event in pygame.event.get():
@@ -171,7 +178,7 @@ def gameLoop():
 
         clock.tick(speed)
 
-    # Update high score file if needed
+    # Update high score file when quitting
     if score > HIGH_SCORE:
         HIGH_SCORE = score
         with open(HS_FILE, "w") as f:
