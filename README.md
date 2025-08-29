@@ -88,4 +88,5 @@ Made with ❤️ using Python and [Pygame](https://www.pygame.org/news).
 With Love ❤️  from,
 Rashal Jeet Singh
 Happy Gaming 🎮😎
-![CheeseHeadGoPackersGIF](https://github.com/user-attachments/assets/f64fa6e7-c428-4059-a8c5-9a0590f674c7)
+![NebraskaHuskersDylanRaiolaGIF (2)](https://github.com/user-attachments/assets/6ac432de-b448-4b2a-b12c-3c63af43ce23)
+
