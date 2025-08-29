@@ -31,7 +31,7 @@ Snake Game
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/snake-game.git](https://github.com/Rashal10/Drake-s-Snake-Game.git)
+git clone https://github.com/Rashal10/Drake-s-Snake-Game.git
 cd snake-game
 ```
 
