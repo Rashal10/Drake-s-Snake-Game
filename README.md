@@ -32,7 +32,7 @@ Snake Game
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Rashal10/Drake-s-Snake-Game.git
-cd snake-game
+cd Snake-Game
 ```
 
 ### 2. Install Dependencies
