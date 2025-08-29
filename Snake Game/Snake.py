@@ -4,20 +4,17 @@ import os
 
 pygame.init()
 
-# Game window
 WIDTH, HEIGHT = 600, 400
 BLOCK = 20
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Snake Game with Wrap Around & Clock Snake")
 
-# Colors
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
 clock = pygame.time.Clock()
 font = pygame.font.SysFont("bahnschrift", 25)
 
-# Load apple image
 try:
     apple_img = pygame.image.load("apple.png").convert_alpha()
     apple_img = pygame.transform.scale(apple_img, (BLOCK, BLOCK))
@@ -59,9 +56,7 @@ def draw_clock_snake(snake_list):
         pygame.draw.circle(screen, (0, 128, 255), (x + BLOCK // 2, y + BLOCK // 2), BLOCK // 2 - 2)
         if i == len(snake_list) - 1:
             center = (x + BLOCK // 2, y + BLOCK // 2)
-            # Hour hand
             pygame.draw.line(screen, (255, 255, 255), center, (center[0], center[1] - 6), 3)
-            # Minute hand
             pygame.draw.line(screen, (255, 255, 255), center, (center[0] + 6, center[1]), 2)
 
 
@@ -94,7 +89,6 @@ def gameLoop():
             message("You Lost! Press C-Play Again or Q-Quit", (255, 0, 0), (WIDTH / 8, HEIGHT / 3))
             pygame.display.update()
 
-            # Update high score if needed here
             if score > HIGH_SCORE:
                 HIGH_SCORE = score
                 with open(HS_FILE, "w") as f:
@@ -132,7 +126,6 @@ def gameLoop():
         x += dx
         y += dy
 
-        # Wrap around screen edges
         if x >= WIDTH:
             x = 0
         elif x < 0:
@@ -145,7 +138,6 @@ def gameLoop():
 
         draw_checkered_background()
 
-        # Draw food (apple image)
         screen.blit(apple_img, (foodx, foody))
 
         snake_head = [x, y]
@@ -153,32 +145,27 @@ def gameLoop():
         if len(snake_list) > length_of_snake:
             del snake_list[0]
 
-        # Check collision with itself
         for segment in snake_list[:-1]:
             if segment == snake_head:
                 game_close = True
 
         draw_clock_snake(snake_list)
 
-        # Display score, level, high score
         message(f"Score: {score}  Level: {level}  High Score: {HIGH_SCORE}", BLACK, (10, 10))
 
         pygame.display.update()
 
-        # Collision with food
         if x == foodx and y == foody:
             score += 1
             length_of_snake += 1
             foodx = round(random.randrange(0, WIDTH - BLOCK) / BLOCK) * BLOCK
             foody = round(random.randrange(0, HEIGHT - BLOCK) / BLOCK) * BLOCK
 
-            # Update level every 5 points
             level = score // 5 + 1
             speed = 10 + level * 2
 
         clock.tick(speed)
 
-    # Update high score file when quitting
     if score > HIGH_SCORE:
         HIGH_SCORE = score
         with open(HS_FILE, "w") as f:
@@ -189,3 +176,4 @@ def gameLoop():
 
 
 gameLoop()
+
