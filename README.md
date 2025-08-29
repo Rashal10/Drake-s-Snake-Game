@@ -87,5 +87,6 @@ Made with ❤️ using Python and [Pygame](https://www.pygame.org/news).
 With Love ❤️  from,
 Rashal Jeet Singh. 
 Happy Gaming 🎮😎
-![NebraskaHuskersDylanRaiolaGIF (2)](https://github.com/user-attachments/assets/6ac432de-b448-4b2a-b12c-3c63af43ce23)
+![NebraskaHuskersDylanRaiolaGIF (2)](https://github.com/user-attachments/assets/6ac432de-b448-4b2a-b12c-3c63af43ce23)     ![PhatearlGIF](https://github.com/user-attachments/assets/e275ba04-3691-4ca9-97aa-1c5f68639d8f)
+
 
