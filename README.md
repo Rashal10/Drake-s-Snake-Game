@@ -72,8 +72,6 @@ I have a small gameplay of the game below.
 
 ![Image](https://github.com/user-attachments/assets/daf3be1c-1183-40ef-8bf4-1f9b7114d844)
 
-```
-
 ---
 
 ## 🤝 Contributing
