@@ -69,8 +69,9 @@ python Snake.py
 
 ## 📸 Preview
 I have a small gameplay of the game below.
-```bash
-![Snake Game Demo](./Game_demo_gif.gif)
+
+![Image](https://github.com/user-attachments/assets/daf3be1c-1183-40ef-8bf4-1f9b7114d844)
+
 ```
 
 ---
