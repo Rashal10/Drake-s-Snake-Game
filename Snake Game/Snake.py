@@ -7,7 +7,7 @@ pygame.init()
 WIDTH, HEIGHT = 600, 400
 BLOCK = 20
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Snake Game with Wrap Around & Clock Snake")
+pygame.display.set_caption("Drake's Snake Game")
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
@@ -176,4 +176,5 @@ def gameLoop():
 
 
 gameLoop()
+
 
