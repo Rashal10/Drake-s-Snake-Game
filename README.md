@@ -86,7 +86,7 @@ Pull requests are warm heartedly welcome.
 ### 👨‍💻 Author
 Made with ❤️ using Python and [Pygame](https://www.pygame.org/news).
 With Love ❤️  from,
-Rashal Jeet Singh
+Rashal Jeet Singh. 
 Happy Gaming 🎮😎
 ![NebraskaHuskersDylanRaiolaGIF (2)](https://github.com/user-attachments/assets/6ac432de-b448-4b2a-b12c-3c63af43ce23)
 
