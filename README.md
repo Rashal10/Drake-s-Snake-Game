@@ -1,7 +1,7 @@
-# 🐍 Drake's Snake Game (Pygame)
+# 🐍 Drake's Snake Game 
 
 A fun little **Snake Game** built with **Python** and **Pygame**.  
-Unlike the classic rectangle-only snake, this version uses a apple 🍎 as the favorite food of the circle ball shaped snake.  
+Unlike the classic rectangle-only snake, this version uses a apple 🍎 as the favorite food of the circle ball shaped snake with a tongue.  
 
 ---
 
