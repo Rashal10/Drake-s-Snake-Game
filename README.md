@@ -79,15 +79,13 @@ I have a small gameplay of the game below.
 Want to improve the game? Well I really appreciate it.
 Please add a better image of the snake. 
 
-Pull requests are welcome 
-
----
-
-## 📜 License
-This project is open-source under the **MIT License**.  
-You’re free to use, modify, and share it.  
+Pull requests are warm heartedly welcome.
 
 ---
 
 ### 👨‍💻 Author
 Made with ❤️ using Python and [Pygame](https://www.pygame.org/news).
+With Love ❤️  from,
+Rashal Jeet Singh
+Happy Gaming 🎮😎
+![CheeseHeadGoPackersGIF](https://github.com/user-attachments/assets/f64fa6e7-c428-4059-a8c5-9a0590f674c7)
