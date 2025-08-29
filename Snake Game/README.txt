@@ -20,7 +20,7 @@ Unlike the classic rectangle-only snake, this version uses a apple 🍎 as the f
 Snake Game
 ├── Snake.py
 ├── apple.png
-├── screenshot.png   
+├── Game_demo_gif.gif  
 └── README.md
 
 ```
